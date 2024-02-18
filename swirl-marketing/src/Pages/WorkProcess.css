@@ -1,0 +1,19 @@
+.Ali {
+    box-shadow: 10px 6px 3px rgba(255, 255, 255, 0.2);
+}
+.pricing-section {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+  
+  .pricing-section.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  .visible {
+    visibility: visible;
+    opacity: 1;
+    transition: visibility 0s, opacity 2s linear;
+  }
+  
