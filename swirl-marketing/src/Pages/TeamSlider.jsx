@@ -6,11 +6,11 @@ function TeamSlider() {
     const [isSmallScreen, setIsSmallScreen] = useState(false);
 
     const data = [
-        { id: 1, position: 'Developer', image: './public/images/Logo.png' },
-        { id: 2, position: 'Designer', image: './public/images/Logo1.png' },
-        { id: 3, position: 'Manager', image: './public/images/Design.jpg' },
-        { id: 4, position: 'Manager1', image: './public/images/Mine.jpg' },
-        { id: 5, position: 'React devloper', image: './public/images/Mine2.jpg'},
+        { id: 1, position: 'Developer', image: './images/Logo.png' },
+        { id: 2, position: 'Designer', image: './images/Logo1.png' },
+        { id: 3, position: 'Manager', image: './images/Design.jpg' },
+        { id: 4, position: 'Manager1', image: './images/Mine.jpg' },
+        { id: 5, position: 'React devloper', image: './images/Mine2.jpg'},
     ];
 
     useEffect(() => {
