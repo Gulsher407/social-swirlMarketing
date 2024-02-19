@@ -11,7 +11,7 @@ function Services() {
   return (
 
     <div className=''  >
-      <div className=' flex flex-col border-2 border-red-500 h-[114px] items-center' >
+      <div className=' flex flex-col h-[114px] items-center' >
         <h1 className='text-white text-sm  lg:text-3xl  font-bold text-center p-4'>
           " Your Sucess Story Start Here Embrace Our Services."</h1>
         <h1 className='text-xl text-white border-2 font-bold bg-blue-600 border-blue-400 w-fit px-6 py-1 rounded-md mt-24 position absolute' >Our Services</h1>
