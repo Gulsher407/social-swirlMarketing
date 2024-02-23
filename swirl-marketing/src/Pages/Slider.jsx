@@ -125,51 +125,7 @@ function Slider() {
           </div>
         </div>
       </Carousel>
-
-
-      {/* Additional div after Carousel */}
-
-
       
-
-      <div className="flex mb-4  md:flex-row   justify-between flex-col    lg:h-[450px] h-fit md:mx-10 mt-36  md:mb-36  font-sans ">
-        <div className="w-[45%]   justify-center flex ">
-          {/* Left side content (picture) */}
-          <img src="./Images/Disscussion.png" alt="discussion-Group" className="ml-20 md:ml-0  w-auto h-full " />
-        </div>
-        <div className=" md:w-[60%] mr-2 flex flex-col  justify-center ">
-          {/* Right side content (paragraph) */}
-          <h1 className="text-center mt-10 md:text-3xl text-2xl text-white md:mb-8  mb-4 font-bold" >Lets Discuss About Your Project</h1>
-
-          <p className="md:text-xl text-white md:ml-24 px-2">
-            Your project is our Focus. We are eger to delve into the details, understand yourvision,
-            and collaborate to bring it in life.Lets start a coversation that start  lead to your project sucess           </p>
-        </div>
-      </div>
-           
-      <div className="h-10 flex items-center justify-center pb-20">
-  <hr className="md:w-[1150px]  border-white" />
-</div>
-
-
-
-      <div className="flex justify-between h-[450px] md:mx-10 md:mt-10   md:flex-row flex-col         font-sans">
-        <div className="md:w-[60%] mr-2 flex flex-col justify-center p-2">
-          {/* Left side content (paragraph) */}
-              <h1 className="md:text-3xl text-2xl text-white md:mb-8  mb-4 font-bold " >We Can Help You To Grow You Buisness</h1>
-          <p className="md:text-xl text-white md:w-[92%] ">
-            Your paragraph text goes here.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt,
-            blanditiis repellendus . Repellat officiis dolorem, unde in culpa
-            eum veniam tenetur, doloremque possimus, libero pariatur maxime
-            deserunt ipsam! Quaerat, excepturi ut. Lorem ipsum dolor sit amet.
-          </p>
-        </div>
-        <div className="md:w-[40%] w-[70%]  ml-2  justify-center flex">
-          {/* Left side content (picture) */}
-          <img src="./Images/Grow.png" alt="Business-Grow" className=" w-auto h-full  " />
-        </div>
-      </div>
       <WorkProcess/>
 
       </div>
