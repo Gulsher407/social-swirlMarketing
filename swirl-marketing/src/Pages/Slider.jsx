@@ -10,8 +10,6 @@ import { BsArrowLeftCircle, BsArrowRightCircle } from "react-icons/bs";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import WorkProcess from "./WorkProcess";
-import Pricing from "./Pricing";
-import Aboutus from "./Aboutus";
 
 
 function Slider() {

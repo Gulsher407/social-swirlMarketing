@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import logo from '../assets/images/swirl marketing logo.png'
+
 
 function Navbar() {
   const location = useLocation();
@@ -23,8 +25,7 @@ function Navbar() {
           {/* Left side logo and company name */}
           <div className="flex-shrink-0">
             <Link to="/" className="flex items-center">
-              <img className="h-12 w-auto text-white" src="./Images/Logo1.png" alt="Logo" />
-              <span className="text-white text-xl ml-2 font-sans italic mt-2">Swirl <br /> Marketing</span>
+            <img className="h-20 w-auto text-white" src={logo} alt="Logo" />
             </Link>
           </div>
           {/* Hamburger menu for small screens */}

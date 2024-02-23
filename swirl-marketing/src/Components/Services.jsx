@@ -22,51 +22,51 @@ function Services() {
          <div className='py-10 min-h-screen w-full px-5 mx-auto'>
           <h1 className=' text-sm  lg:text-3xl font-bold   lg:text-center text-[#000080]'>These are the <span className='text-red-700'>SERVICES</span> We are Providing</h1>
 
-          <div className='grid lg:grid-cols-5 md:grid-cols-3 grid-cols-1 mt-4 gap-4'>
+          <div className='grid lg:grid-cols-5 md:grid-cols-3 grid-cols-2 mt-4 gap-x-5 gap-y-10'>
             {/* Service Card */}
-            <div className='border-2 bg-[#cce9fe] flex flex-col justify-center items-center p-10 shadow-lg'>
+            <div className=' hover:-translate-y-6 duration-1000     border-2 bg-[#cce9fe] flex flex-col justify-center items-center p-10 shadow-lg'>
               <img src="./public/images/grow.png" alt="" className='h-20 w-12 text-blue-500' />
               <h1 className='text-center text-blue-600 mt-1'>Digital Marketing</h1>
             </div>
 
-            <div className='border-2 bg-[#cce9fe] flex lg:flex-col justify-center items-center p-10 shadow-lg'>
+            <div className= 'hover:-translate-y-6 duration-1000 border-2 bg-[#cce9fe] flex lg:flex-col justify-center items-center p-10 shadow-lg'>
               <img src="./public/images/Content.png" alt="" className='h-20 w-12 text-blue-500' />
               <h1 className='text-center text-blue-600 mt-1'>Content Creator</h1>
             </div>
 
-            <div className='border-2  bg-[#cce9fe] flex flex-col justify-center items-center p-10 shadow-lg'>
+            <div className='hover:-translate-y-6 duration-1000   border-2  bg-[#cce9fe] flex flex-col justify-center items-center p-10 shadow-lg'>
               <img src="./public/images/Brnd.png" alt="" className='h-20 w-12 text-blue-500' />
               <h1 className='text-center text-blue-600 mt-1'>Brand Marketing</h1>
             </div>
-            <div className='border-2 bg-[#cce9fe]  flex lg:flex-col  justify-center items-center p-10 shadow-lg'>
+            <div className=' hover:-translate-y-6 duration-1000   border-2 bg-[#cce9fe]  flex lg:flex-col  justify-center items-center p-10 shadow-lg'>
               <img src="./public/images/grow.png" alt="" className='h-20 w-12 text-blue-500' />
               <h1 className='text-center text-blue-600 mt-1'>Digital Marketing</h1>
             </div>
 
-            <div className='border-2 bg-[#cce9fe] flex flex-col justify-center items-center p-10 shadow-lg'>
+            <div className= 'hover:-translate-y-6 duration-1000   border-2 bg-[#cce9fe] flex flex-col justify-center items-center p-10 shadow-lg'>
               <img src="./public/images/Content.png" alt="" className='h-20 w-12 text-blue-500' />
               <h1 className='text-center text-blue-600 mt-1'>Content Creator</h1>
             </div>
 
-            <div className='border-2 flex flex-col justify-center items-center p-10 shadow-lg'>
+            <div className='hover:-translate-y-6 duration-1000   border-2 flex flex-col justify-center items-center p-10 shadow-lg'>
               <img src="./public/images/Brnd.png" alt="" className='h-20 w-12 text-blue-500' />
               <h1 className='text-center text-blue-600 mt-1'>Brand Marketing</h1>
             </div>
-            <div className='border-2 flex lg:flex-col flex-row justify-center items-center p-10 shadow-lg'>
+            <div className='hover:-translate-y-6 duration-1000   border-2 flex lg:flex-col flex-row justify-center items-center p-10 shadow-lg'>
               <img src="./public/images/grow.png" alt="" className='h-20 w-12 text-blue-500' />
               <h1 className='text-center text-blue-600 mt-1'>Digital Marketing</h1>
             </div>
 
-            <div className='border-2 flex flex-col justify-center items-center p-10 shadow-lg'>
+            <div className='hover:-translate-y-6 duration-1000   border-2 flex flex-col justify-center items-center p-10 shadow-lg'>
               <img src="./public/images/Content.png" alt="" className='h-20 w-12 text-blue-500' />
               <h1 className='text-center text-blue-600 mt-1'>Content Creator</h1>
             </div>
 
-            <div className='border-2 flex flex-col justify-center items-center p-10 shadow-lg'>
+            <div className='hover:-translate-y-6 duration-1000   border-2 flex flex-col justify-center items-center p-10 shadow-lg'>
               <img src="./public/images/Brnd.png" alt="" className='h-20 w-12 text-blue-500' />
               <h1 className='text-center text-blue-600 mt-1'>Brand Marketing</h1>
             </div>
-            <div className='border-2 flex lg:flex-col flex-row justify-center items-center p-10 shadow-lg'>
+            <div className='hover:-translate-y-6 duration-1000   border-2 flex lg:flex-col flex-row justify-center items-center p-10 shadow-lg'>
               <img src="./public/images/grow.png" alt="" className='h-20 w-12 text-blue-500' />
               <h1 className='text-center text-blue-600 mt-1'>Digital Marketing</h1>
             </div>

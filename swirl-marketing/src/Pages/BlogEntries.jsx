@@ -19,7 +19,7 @@ function BlogEntries() {
                 {/* First Blog Card */}
                 <div className='flex flex-col items-center'>
                     <div className='h-[250px] w-[100%] lg:w-[380px]'>
-                        <img src="./public/images/Calculator.jpg" alt="Gulsher" className='p-4 h-[250px] w-[100%] rounded-3xl' />
+                        <img src="./public/images/Calculator.jpg" alt="Gulsher" className='hover:-translate-y-6 duration-1000   p-4 h-[250px] w-[100%] rounded-3xl' />
                     </div>
                     <div className='text-center'>
                         <h1>Name</h1>
@@ -32,8 +32,8 @@ function BlogEntries() {
 
                 {/* Second Blog Card */}
                 <div className='flex flex-col items-center'>
-                    <div className='h-[250px] w-[100%] lg:w-[380px]'>
-                        <img src="./public/images/Calculator.jpg" alt="Gulsher" className='p-4 h-[250px] w-[100%] rounded-3xl' />
+                    <div className='h-[250px] w-[100%] lg:w-[380px] '>
+                        <img src="./public/images/Calculator.jpg" alt="Calcu" className=' hover:-translate-y-6 duration-1000  p-4 h-[250px] w-[100%] rounded-3xl' />
                     </div>
                     <div className='text-center'>
                         <h1>Name</h1>
@@ -47,7 +47,7 @@ function BlogEntries() {
                 {/* Third Blog Card */}
                 <div className='flex flex-col items-center'>
                     <div className='h-[250px] w-[100%] lg:w-[380px]'>
-                        <img src="./public/images/Calculator.jpg" alt="Gulsher" className='p-4 h-[250px] w-[100%] rounded-3xl' />
+                        <img src="./public/images/Calculator.jpg" alt="Gulsher" className='hover:-translate-y-6 duration-1000  p-4 h-[250px] w-[100%] rounded-3xl' />
                     </div>
                     <div className='text-center'>
                         <h1>Name</h1>

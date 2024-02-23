@@ -9,19 +9,21 @@ function WorkProcess() {
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae sapiente fugiat velit cupiditate laboriosam iusto officia,
                 numquam ad eveniet alias expedita molestiae, ducimus magni iste nisi placeat laborum. Sunt, debitis.
             </p>
-            <div className='grid grid-cols-1 lg:grid-cols-6 md:grid-cols-3 sm:grid-cols-2 gap-8 mt-16 '>
-                <div  className='Ali  flex flex-col justify-center items-center p-3  text-center bg-white text-black rounded-xl'>
-                    <div className="text-xl p-2 mb-2 items-center">
+            <div className='mx-2 grid grid-cols-2 lg:grid-cols-6 md:grid-cols-3 sm:grid-cols-2 gap-8 mt-16 '>
+                <div  className='Ali  flex flex-col justify-center items-center p-3 hover:scale-105 duration-300 ease-linear text-center bg-white text-black rounded-xl'>
+                    <div className="text-xl p-2 mb-2 items-center overflow-hidden ">
                         
-                        <img src="./public/images/ideas.png" alt="Ideas" className='h-10 w-10' />
+                        <img src="./public/images/ideas.png" alt="Ideas" className='h-10 w-10 ' />
                     </div>
                     <div className="text-lg mb-1">Get Ideas</div>
                     <div className="p-0">
                         <p className="text-gray-700">Lorem ipsum dolor sit amet</p>
                     </div>
                 </div>
+            
+                
 
-                <div  className='Ali  flex flex-col justify-center items-center p-3  text-center bg-white text-black rounded-xl'>
+                <div  className='Ali  flex flex-col justify-center items-center p-3  hover:scale-105 duration-300 ease-linear text-center bg-white text-black rounded-xl'>
                     <div className="text-xl p-2 mb-2 items-center">
                         <img src="./public/images/Sketch.png" alt="Ideas" className='h-10 w-10' />
                     </div>
@@ -30,7 +32,7 @@ function WorkProcess() {
                         <p className="text-gray-700">Lorem ipsum dolor sit amet</p>
                     </div>
                 </div>
-                <div  className='Ali  flex flex-col justify-center items-center p-3  text-center bg-white text-black rounded-xl'>
+                <div  className='Ali  flex flex-col justify-center items-center p-3  hover:scale-105 duration-300 ease-linear text-center bg-white text-black rounded-xl'>
                     <div className="text-xl p-2 mb-2 items-center">
                         <img src="./public/images/Conver.png" alt="Ideas" className='h-10 w-10' />
                     </div>
@@ -39,7 +41,7 @@ function WorkProcess() {
                         <p className="text-gray-700">Lorem ipsum dolor sit amet</p>
                     </div>
                 </div>
-                <div  className='Ali   flex flex-col justify-center items-center p-3  text-center bg-white text-black rounded-xl'>
+                <div  className='Ali hover:scale-105 duration-300 ease-linear  flex flex-col justify-center items-center p-3  text-center bg-white text-black rounded-xl'>
                     <div className="text-xl p-2 mb-2 items-center">
                         <img src="./public/images/Revise.png" alt="Ideas" className='h-10 w-10' />
                     </div>
@@ -48,7 +50,7 @@ function WorkProcess() {
                         <p className="text-gray-700">Lorem ipsum dolor sit amet</p>
                     </div>
                 </div>
-                <div  className='Ali   flex flex-col justify-center items-center p-3  text-center bg-white text-black rounded-xl'>
+                <div  className='Ali hover:scale-105 duration-300 ease-linear  flex flex-col justify-center items-center p-3  text-center bg-white text-black rounded-xl'>
                     <div className="text-xl p-2 mb-2 items-center">
                         <img src="./public/images/Approve.png" alt="Ideas" className='h-10 w-10' />
                     </div>
@@ -57,7 +59,7 @@ function WorkProcess() {
                         <p className="text-gray-700">Lorem ipsum dolor sit amet</p>
                     </div>
                 </div>
-                <div  className='Ali  flex flex-col justify-center items-center p-3  text-center bg-white text-black rounded-xl'>
+                <div  className='Ali hover:scale-105 duration-300 ease-linear flex flex-col justify-center items-center p-3  text-center bg-white text-black rounded-xl'>
                     <div className="text-xl p-2 mb-2 items-center">
                         <img src="./public/images/Launch.png" alt="Ideas" className='h-10 w-10' />
                     </div>

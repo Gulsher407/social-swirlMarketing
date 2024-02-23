@@ -7,6 +7,8 @@ import {
   FaInstagram,
   FaTwitterSquare,
 } from 'react-icons/fa';
+import logo from '../assets/images/swirl marketing logo.png'
+
 
 const Footer = () => {
   const location = useLocation();
@@ -21,8 +23,10 @@ const Footer = () => {
     renderFooter() && (
     <div id='footer' className='max-w-[1240px] mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 text-gray-300'>
       <div>
-        <h1 className='w-full text-2xl font-bold text-[#00df9a]'>Gulsher..</h1>
-        <p className='py-4'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id odit ullam iste repellat consequatur libero reiciendis, blanditiis accusantium.</p>
+        <h1 className='w-full text-2xl font-bold text-[#00df9a]'></h1>
+        <img className="h-20 w-auto text-white" src={logo} alt="Logo" />
+        <p className='py-4'>
+        A marketing agency serves as a strategic partner for businesses looking to elevate their brand presence, engage customers, and drive sales.</p>
         <div className='flex justify-between md:w-[75%] my-6'>
             <FaFacebookSquare size={30} />
             <FaInstagram size={30} />
